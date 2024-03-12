@@ -1,0 +1,56 @@
+{
+	"name": "@btakita/snippet--rappstack",
+	"type": "module",
+	"version": "0.0.0",
+	"description": "Miscellaneous snippets & templates for rappstack",
+	"keywords": [
+		"rappstack",
+		"reactive",
+		"full-stack",
+		"domain",
+		"isomorphic",
+		"server",
+		"blog"
+	],
+	"homepage": "https://github.com/btakita/snippet--rappstack",
+	"bugs": {
+		"url": "https://github.com/btakita/snippet--rappstack/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/btakita/snippet--rappstack.git"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"types": "index.ts",
+	"exports": {
+		".": "./index.ts",
+		"./home": "./home/index.ts",
+		"./package.json": "./package.json"
+	},
+	"files": [
+		"*.d.ts",
+		"*.js",
+		"*.json",
+		"home",
+		"icon",
+		"layout",
+		"logo"
+	],
+	"dependencies": {
+		"@rappstack/domain--server": "workspace:*",
+		"@rappstack/ui--server": "workspace:*",
+		"ctx-core": "^6.5.5",
+		"rebuildjs": "^0.65.3",
+		"relementjs": "^0.74.5",
+		"relysjs": "^1.16.4"
+	},
+	"devDependencies": {
+		"@btakita/schema-dts": "^1.1.3-patch",
+		"bun-types": "latest",
+		"schema-dts": "^1.1.2"
+	},
+	"peerDependencies": {
+		"typescript": "^5.4.2"
+	}
+}
