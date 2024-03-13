@@ -4,9 +4,7 @@ export function layout__header__hyop(home__header:HTMLElement) {
 	window.addEventListener('scroll', update)
 	update()
 	function update() {
-		home__header.classList.toggle('bg-white', window.scrollY > 10)
-		home__header.classList.toggle('backdrop-blur-sm', window.scrollY > 10)
-		home__header.classList.toggle('shadow-lg', window.scrollY > 10)
+		home__header.classList.toggle('scroll-down', window.scrollY > 10)
 	}
 }
 const [

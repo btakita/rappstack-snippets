@@ -222,7 +222,7 @@ export function home__doc_html_({
 							class: class_(
 								'home__hero_modal_container',
 								'group/modal'),
-							/** @see {import('@btakita/ui--browser--peakexistence/home').home__hero_modal_container__hyop} */
+							/** @see {import('../browser/index.ts').home__hero_modal_container__hyop} */
 							hyop: 'home__hero_modal_container__hyop'
 						}, [
 							div_({
@@ -315,7 +315,7 @@ export function home__doc_html_({
 										'shadow-lg'),
 									'@click.prevent': 'modalExpanded = true',
 									'aria-controls': 'modal',
-									/** @see {import('@btakita/ui--browser--peakexistence/home').home__hero__button__hyop} */
+									/** @see {import('../browser/index.ts').home__hero__button__hyop} */
 									hyop: 'home__hero__button__hyop'
 								}, [
 									svg_({
@@ -391,7 +391,7 @@ export function home__doc_html_({
 										'max-w-6xl',
 										'w-full',
 										'max-h-full'),
-									/** @see {import('@btakita/ui--browser--peakexistence/home').home__hero_modal__video_container__hyop} */
+									/** @see {import('../browser/index.ts').home__hero_modal__video_container__hyop} */
 									hyop: 'home__hero_modal__video_container__hyop'
 								}, [
 									div_({
@@ -408,7 +408,7 @@ export function home__doc_html_({
 											height: '1080',
 											loop: '',
 											controls: '',
-											/** @see {import('@btakita/ui--browser--peakexistence/home').home__hero_modal__video__hyop} */
+											/** @see {import('../browser/index.ts').home__hero_modal__video__hyop} */
 											hyop: 'home__hero_modal__video__hyop'
 										}, [
 											source_({
@@ -509,7 +509,7 @@ export function home__doc_html_({
 								'md:grid-cols-12',
 								'md:gap-6',
 								'group'),
-							/** @see {import('@btakita/ui--browser--peakexistence/home').features_tab_container__hyop} */
+							/** @see {import('../browser/index.ts').features_tab_container__hyop} */
 							hyop: 'features_tab_container__hyop'
 						}, [
 							/*  Content  */
@@ -553,7 +553,7 @@ export function home__doc_html_({
 								}, [
 									button_({
 										class: class_(features_tab__button_class_(1)),
-										/** @see {import('@btakita/ui--browser--peakexistence/home').features_tab_1__button__hyop} */
+										/** @see {import('../browser/index.ts').features_tab_1__button__hyop} */
 										hyop: 'features_tab_1__button__hyop'
 									}, [
 										div_([
@@ -599,7 +599,7 @@ export function home__doc_html_({
 									]),
 									button_({
 										class: class_(features_tab__button_class_(2)),
-										/** @see {import('@btakita/ui--browser--peakexistence/home').features_tab_2__button__hyop} */
+										/** @see {import('../browser/index.ts').features_tab_2__button__hyop} */
 										hyop: 'features_tab_2__button__hyop'
 									}, [
 										div_([
@@ -646,7 +646,7 @@ export function home__doc_html_({
 									]),
 									button_({
 										class: class_(features_tab__button_class_(3)),
-										/** @see {import('@btakita/ui--browser--peakexistence/home').features_tab_3__button__hyop} */
+										/** @see {import('../browser/index.ts').features_tab_3__button__hyop} */
 										hyop: 'features_tab_3__button__hyop',
 									}, [
 										div_([
