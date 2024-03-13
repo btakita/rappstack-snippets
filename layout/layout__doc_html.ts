@@ -90,7 +90,7 @@ export function layout__doc_html_({
 				site__light_and_dark_mode
 					? [
 						// language=js
-						script_(raw_(`
+						script_({ type: 'module' }, raw_(`
 					// remove fouc
 					const localStorage__theme = localStorage.getItem('theme')
 					document.firstElementChild.setAttribute(
