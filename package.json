@@ -32,13 +32,13 @@
 		"*.d.ts",
 		"*.js",
 		"*.json",
-		"home",
-		"icon",
-		"layout",
-		"logo"
+		"cruip-simple/browser",
+		"cruip-simple/server",
+		"layout"
 	],
 	"dependencies": {
 		"@rappstack/domain--server": "workspace:*",
+		"@rappstack/ui--browser": "workspace:*",
 		"@rappstack/ui--server": "workspace:*",
 		"ctx-core": "^6.5.5",
 		"rebuildjs": "^0.65.3",

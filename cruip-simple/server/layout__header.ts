@@ -14,7 +14,7 @@ export function layout__header_() {
 				'transition',
 				'duration-300',
 				'ease-in-out'),
-			/** @see {import('../../ui--browser--peakexistence/layout').layout__header__hyop} */
+			/** @see {import('../browser/index.ts').layout__header__hyop} */
 			hyop: 'layout__header__hyop'
 		}, [
 			div_({
@@ -153,8 +153,8 @@ export function layout__header_() {
 								'hamburger',
 								'peer'),
 							'aria-controls': 'mobile-nav',
-							/** @see {import('@btakita/ui--browser--peakexistence/layout').layout__header__mobile_menu__button__hyop} */
-							hyop: 'layout__header__mobile_menu__button__hyop'
+							/** @see {import('../browser/index.ts').layout__header_mobile_menu__button__hyop} */
+							hyop: 'layout__header_mobile_menu__button__hyop'
 						}, [
 							span_({ class: class_('sr-only') }, 'Menu'),
 							svg_({
@@ -174,6 +174,8 @@ export function layout__header_() {
 						nav_({
 							id: 'mobile-nav',
 							class: class_(
+								'hidden',
+								'[&.enter]:block',
 								'absolute',
 								'top-full',
 								'h-screen',
@@ -188,9 +190,11 @@ export function layout__header_() {
 								'duration-200',
 								'transform',
 								'opacity-0',
-								'peer-[.active]:opacity-100',
+								'[&.enter-go]:opacity-100',
 								'-translate-y-2',
-								'peer-[.active]:translate-y-0'),
+								'[&.enter-go]:translate-y-0'),
+							/** @see {import('../browser/index.ts').layout__header_mobile_menu__nav__hyop} */
+							hyop: 'layout__header_mobile_menu__nav__hyop'
 						}, [
 							ul_({
 								class: class_(
