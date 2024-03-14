@@ -100,8 +100,9 @@ export function layout__header_() {
 										'transition',
 										'duration-150',
 										'ease-in-out'),
-									href,
-								}, text)
+								}, [
+									a_({ href }, text)
+								])
 							),
 							home_desktop_resources__li_()
 						]),
