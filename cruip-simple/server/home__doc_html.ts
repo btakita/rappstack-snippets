@@ -474,7 +474,7 @@ export function home__doc_html_({
 								'pb-12',
 								'md:pb-16')
 						}, [
-							h1_({
+							h2_({
 								class: class_(
 									'h2',
 									'mb-4')
