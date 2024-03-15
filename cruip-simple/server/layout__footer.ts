@@ -1,4 +1,5 @@
 import { class_ } from 'ctx-core/html'
+import { raw_ } from 'relementjs'
 import { a_, button_, div_, footer_, form_, h6_, input_, label_, li_, p_, span_, ul_ } from 'relementjs/html'
 import { defs_, path_, radialGradient_, rect_, stop_, svg_ } from 'relementjs/svg'
 export function layout__footer_() {
@@ -267,7 +268,7 @@ export function layout__footer_() {
 					]),
 					/*  Copyrights note  */
 					div_({ class: 'text-sm text-gray-600 mr-4' }, [
-						'&copy; Cruip.com. All rights reserved.'
+						'© Cruip.com. All rights reserved.'
 					])
 				])
 			])

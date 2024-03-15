@@ -1,4 +1,5 @@
 import { class_ } from 'ctx-core/html'
+import { type tag_dom_T } from 'relementjs'
 import {
 	a_,
 	article_,
@@ -40,9 +41,12 @@ import {
 } from 'relementjs/svg'
 import { type request_ctx_T } from 'relysjs/server'
 import { layout__doc_html_ } from '../../layout/index.js'
+import { type tab_id_T } from '../any/index.js'
 import { layout__footer_ } from './layout__footer.js'
 import { layout__header_ } from './layout__header.js'
 const features_home_bg_01_png = 'features_home_bg_01.png'
+const features_home_bg_02_png = 'features_home_bg_02.png'
+const features_home_bg_03_png = 'features_home_bg_03.png'
 const features_home_element_01_png = 'features_home_element_01.png'
 const features_home_element_02_png = 'features_home_element_02.png'
 const features_home_element_03_png = 'features_home_element_03.png'
@@ -551,147 +555,64 @@ export function home__doc_html_({
 										'mb-8',
 										'md:mb-0')
 								}, [
-									button_({
-										class: class_(features_tab__button_class_(1)),
+									features_tab__button_({
+										tab_id: 1,
 										/** @see {import('../browser/index.ts').features_tab_1__button__hyop} */
-										hyop: 'features_tab_1__button__hyop'
-									}, [
-										div_([
-											div_({
-												class: class_(
-													'font-bold',
-													'leading-snug',
-													'tracking-tight',
-													'mb-1')
-											}, [
-												'Building the Simple ecosystem'
-											]),
-											div_({
-													class: class_('text-gray-600')
-												},
-												'Take collaboration to the next level with security and administrative features built for teams.')
-										]),
-										div_({
+										hyop: 'features_tab_1__button__hyop',
+										title: 'Building the Simple ecosystem',
+										svg: svg_({
+											xmlns: 'http://www.w3.org/2000/svg',
+											viewBox: '0 0 12 12',
 											class: class_(
-												'flex',
-												'justify-center',
-												'items-center',
-												'w-8',
-												'h-8',
-												'bg-white',
-												'rounded-full',
-												'shadow',
-												'shrink-0',
-												'ml-3')
+												'w-3',
+												'h-3',
+												'fill-current'),
 										}, [
-											svg_({
-												xmlns: 'http://www.w3.org/2000/svg',
-												viewBox: '0 0 12 12',
-												class: class_(
-													'w-3',
-													'h-3',
-													'fill-current'),
-											}, [
-												path_(
-													{ d: 'M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z' })
-											])
+											path_(
+												{ d: 'M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z' })
 										])
+									}, [
+										'Take collaboration to the next level with security and administrative features built for teams.'
 									]),
-									button_({
-										class: class_(features_tab__button_class_(2)),
+									features_tab__button_({
+										tab_id: 2,
 										/** @see {import('../browser/index.ts').features_tab_2__button__hyop} */
-										hyop: 'features_tab_2__button__hyop'
-									}, [
-										div_([
-											div_({
-												class: class_(
-													'font-bold',
-													'leading-snug',
-													'tracking-tight',
-													'mb-1')
-											}, 'Building the Simple ecosystem'),
-											div_({
-													class: class_(
-														'text-gray-600')
-												},
-												'Take collaboration to the next level with security and administrative features built for teams.')
-										]),
-										div_({
+										hyop: 'features_tab_2__button__hyop',
+										title: 'Building the Simple ecosystem',
+										svg: svg_({
+											xmlns: 'http://www.w3.org/2000/svg',
+											viewBox: '0 0 12 12',
 											class: class_(
-												'flex',
-												'justify-center',
-												'items-center',
-												'w-8',
-												'h-8',
-												'bg-white',
-												'rounded-full',
-												'shadow',
-												'shrink-0',
-												'ml-3')
+												'w-3',
+												'h-3',
+												'fill-current'),
 										}, [
-											svg_({
-												xmlns: 'http://www.w3.org/2000/svg',
-												viewBox: '0 0 12 12',
-												class: class_(
-													'w-3',
-													'h-3',
-													'fill-current'),
-											}, [
-												path_({
-													d: 'M11.854.146a.5.5 0 00-.525-.116l-11 4a.5.5 0 00-.015.934l4.8 1.921 1.921 4.8A.5.5 0 007.5 12h.008a.5.5 0 00.462-.329l4-11a.5.5 0 00-.116-.525z',
-													'fill-rule': 'nonzero'
-												})
-											])
+											path_({
+												d: 'M11.854.146a.5.5 0 00-.525-.116l-11 4a.5.5 0 00-.015.934l4.8 1.921 1.921 4.8A.5.5 0 007.5 12h.008a.5.5 0 00.462-.329l4-11a.5.5 0 00-.116-.525z',
+												'fill-rule': 'nonzero'
+											})
 										])
-									]),
-									button_({
-										class: class_(features_tab__button_class_(3)),
+									}, ['Take collaboration to the next level with security and administrative features built for teams.']),
+									features_tab__button_({
+										tab_id: 3,
 										/** @see {import('../browser/index.ts').features_tab_3__button__hyop} */
 										hyop: 'features_tab_3__button__hyop',
-									}, [
-										div_([
-											div_({
-												class: class_(
-													'font-bold',
-													'leading-snug',
-													'tracking-tight',
-													'mb-1')
-											}, 'Building the Simple ecosystem'),
-											div_({
-												class: class_('text-gray-600')
-											}, [
-												'Take collaboration to the next level with security and administrative features built for teams.'
-											])
-										]),
-										div_({
+										title: 'Building the Simple ecosystem',
+										svg: svg_({
+											xmlns: 'http://www.w3.org/2000/svg',
+											viewBox: '0 0 12 12',
 											class: class_(
-												'flex',
-												'justify-center',
-												'items-center',
-												'w-8',
-												'h-8',
-												'bg-white',
-												'rounded-full',
-												'shadow',
-												'shrink-0',
-												'ml-3')
+												'w-3',
+												'h-3',
+												'fill-current'),
 										}, [
-											svg_({
-												xmlns: 'http://www.w3.org/2000/svg',
-												viewBox: '0 0 12 12',
-												class: class_(
-													'w-3',
-													'h-3',
-													'fill-current'),
-											}, [
-												path_({
-													d: 'M11.334 8.06a.5.5 0 00-.421-.237 6.023 6.023 0 01-5.905-6c0-.41.042-.82.125-1.221a.5.5 0 00-.614-.586 6 6 0 106.832 8.529.5.5 0 00-.017-.485z',
-													fill: '#191919',
-													'fill-rule': 'nonzero'
-												})
-											])
+											path_({
+												d: 'M11.334 8.06a.5.5 0 00-.421-.237 6.023 6.023 0 01-5.905-6c0-.41.042-.82.125-1.221a.5.5 0 00-.614-.586 6 6 0 106.832 8.529.5.5 0 00-.017-.485z',
+												fill: '#191919',
+												'fill-rule': 'nonzero'
+											})
 										])
-									])
+									}, ['Take collaboration to the next level with security and administrative features built for teams.'])
 								])
 							]),
 							/*  Tabs items  */
@@ -716,207 +637,177 @@ export function home__doc_html_({
 										'text-center',
 										'lg:text-right')
 								}, [
-									/*  Item 1  */
-									div_({
-										class: class_(features_tab_class_(1)),
-									}, [
-										div_({
+									features_tab__div_({ tab_id: 1 }, [
+										img_({
 											class: class_(
-												'relative',
-												'inline-flex',
-												'flex-col')
-										}, [
-											img_({
-												class: class_(
-													'md:max-w-none',
-													'mx-auto',
-													'rounded'),
-												src: features_home_bg_01_png,
-												width: '500',
-												height: '375',
-												alt: 'Features bg'
-											}),
-											img_({
-												class: class_(
-													'md:max-w-none',
-													'absolute',
-													'w-full',
-													'left-0',
-													'transform',
-													'animate-float'),
-												src: features_home_element_01_png,
-												width: '500',
-												height: '147',
-												alt: 'Element 01',
-												style: 'top:22%'
-											}),
-											img_({
-												class: class_(
-													'absolute',
-													'md:max-w-none',
-													'w-full',
-													'left-0',
-													'transform',
-													'animate-float',
-													'animation-delay-500'),
-												src: features_home_element_02_png,
-												width: '500',
-												height: '158',
-												alt: 'Element 02',
-												style: 'top:39%'
-											}),
-											img_({
-												class: class_(
-													'md:max-w-none',
-													'absolute',
-													'w-full',
-													'left-0',
-													'bottom-0',
-													'transform',
-													'animate-float',
-													'animation-delay-1000'),
-												src: features_home_element_03_png,
-												width: '500',
-												height: '167',
-												alt: 'Element 03',
-												style: 'top:77%'
-											})
-										])
+												'md:max-w-none',
+												'mx-auto',
+												'rounded'),
+											src: features_home_bg_01_png,
+											width: '500',
+											height: '375',
+											alt: 'Features bg'
+										}),
+										img_({
+											class: class_(
+												'md:max-w-none',
+												'absolute',
+												'w-full',
+												'left-0',
+												'transform',
+												'animate-float'),
+											src: features_home_element_01_png,
+											width: '500',
+											height: '147',
+											alt: 'Element 01',
+											style: 'top:22%'
+										}),
+										img_({
+											class: class_(
+												'absolute',
+												'md:max-w-none',
+												'w-full',
+												'left-0',
+												'transform',
+												'animate-float',
+												'animation-delay-500'),
+											src: features_home_element_02_png,
+											width: '500',
+											height: '158',
+											alt: 'Element 02',
+											style: 'top:39%'
+										}),
+										img_({
+											class: class_(
+												'md:max-w-none',
+												'absolute',
+												'w-full',
+												'left-0',
+												'bottom-0',
+												'transform',
+												'animate-float',
+												'animation-delay-1000'),
+											src: features_home_element_03_png,
+											width: '500',
+											height: '167',
+											alt: 'Element 03',
+											style: 'top:77%'
+										})
 									]),
-									/*  Item 2  */
-									div_({
-										class: class_(features_tab_class_(2)),
-									}, [
-										div_({
+									features_tab__div_({ tab_id: 2 }, [
+										img_({
 											class: class_(
-												'relative',
-												'inline-flex',
-												'flex-col')
-										}, [
-											img_({
-												class: class_(
-													'md:max-w-none',
-													'mx-auto',
-													'rounded'),
-												src: features_home_bg_01_png,
-												width: '500',
-												height: '375',
-												alt: 'Features bg'
-											}),
-											img_({
-												class: class_(
-													'md:max-w-none',
-													'absolute',
-													'w-full',
-													'left-0',
-													'bottom-0',
-													'transform',
-													'animate-float',
-													'animation-delay-1000'),
-												src: features_home_element_03_png,
-												width: '500',
-												height: '167',
-												alt: 'Element 03',
-												style: 'top:18%'
-											}),
-											img_({
-												class: class_(
-													'md:max-w-none',
-													'absolute',
-													'w-full',
-													'left-0',
-													'transform',
-													'animate-float',
-													'animation-delay-500'),
-												src: features_home_element_02_png,
-												width: '500',
-												height: '158',
-												alt: 'Element 02',
-												style: 'top:40%'
-											}),
-											img_({
-												class: class_(
-													'md:max-w-none',
-													'absolute',
-													'w-full',
-													'left-0',
-													'transform',
-													'animate-float'),
-												src: features_home_element_01_png,
-												width: '500',
-												height: '147',
-												alt: 'Element 01',
-												style: 'top:79%'
-											})
-										])
+												'md:max-w-none',
+												'mx-auto',
+												'rounded'),
+											src: features_home_bg_02_png,
+											width: '500',
+											height: '375',
+											alt: 'Features bg'
+										}),
+										img_({
+											class: class_(
+												'md:max-w-none',
+												'absolute',
+												'w-full',
+												'left-0',
+												'transform',
+												'animate-float'),
+											src: features_home_element_02_png,
+											width: '500',
+											height: '147',
+											alt: 'Element 02',
+											style: 'top:22%'
+										}),
+										img_({
+											class: class_(
+												'absolute',
+												'md:max-w-none',
+												'w-full',
+												'left-0',
+												'transform',
+												'animate-float',
+												'animation-delay-500'),
+											src: features_home_element_02_png,
+											width: '500',
+											height: '158',
+											alt: 'Element 02',
+											style: 'top:39%'
+										}),
+										img_({
+											class: class_(
+												'md:max-w-none',
+												'absolute',
+												'w-full',
+												'left-0',
+												'bottom-0',
+												'transform',
+												'animate-float',
+												'animation-delay-1000'),
+											src: features_home_element_03_png,
+											width: '500',
+											height: '167',
+											alt: 'Element 03',
+											style: 'top:77%'
+										})
 									]),
-									/*  Item 3  */
-									div_({
-										class: class_(features_tab_class_(3)),
-									}, [
-										div_({
+									features_tab__div_({ tab_id: 3 }, [
+										img_({
 											class: class_(
-												'relative',
-												'inline-flex',
-												'flex-col')
-										}, [
-											img_({
-												class: class_(
-													'md:max-w-none',
-													'mx-auto',
-													'rounded'),
-												src: features_home_bg_01_png,
-												width: '500',
-												height: '375',
-												alt: 'Features bg'
-											}),
-											img_({
-												class: class_(
-													'md:max-w-none',
-													'absolute',
-													'w-full',
-													'left-0',
-													'transform',
-													'animate-float'),
-												src: features_home_element_01_png,
-												width: '500',
-												height: '147',
-												alt: 'Element 01',
-												style: 'top:22%'
-											}),
-											img_({
-												class: class_(
-													'md:max-w-none',
-													'absolute',
-													'w-full',
-													'left-0',
-													'transform',
-													'animate-float',
-													'animation-delay-500'),
-												src: features_home_element_02_png,
-												width: '500',
-												height: '158',
-												alt: 'Element 02',
-												style: 'top:39%'
-											}),
-											img_({
-												class: class_(
-													'md:max-w-none',
-													'absolute',
-													'w-full',
-													'left-0',
-													'bottom-0',
-													'transform',
-													'animate-float',
-													'animation-delay-1000'),
-												src: features_home_element_03_png,
-												width: '500',
-												height: '167',
-												alt: 'Element 03',
-												style: 'top:77%'
-											})
-										])
-									])
+												'md:max-w-none',
+												'mx-auto',
+												'rounded'),
+											src: features_home_bg_03_png,
+											width: '500',
+											height: '375',
+											alt: 'Features bg'
+										}),
+										img_({
+											class: class_(
+												'md:max-w-none',
+												'absolute',
+												'w-full',
+												'left-0',
+												'transform',
+												'animate-float'),
+											src: features_home_element_03_png,
+											width: '500',
+											height: '147',
+											alt: 'Element 03',
+											style: 'top:22%'
+										}),
+										img_({
+											class: class_(
+												'absolute',
+												'md:max-w-none',
+												'w-full',
+												'left-0',
+												'transform',
+												'animate-float',
+												'animation-delay-500'),
+											src: features_home_element_02_png,
+											width: '500',
+											height: '158',
+											alt: 'Element 02',
+											style: 'top:39%'
+										}),
+										img_({
+											class: class_(
+												'md:max-w-none',
+												'absolute',
+												'w-full',
+												'left-0',
+												'bottom-0',
+												'transform',
+												'animate-float',
+												'animation-delay-1000'),
+											src: features_home_element_03_png,
+											width: '500',
+											height: '167',
+											alt: 'Element 03',
+											style: 'top:77%'
+										})
+									]),
 								])
 							])
 						])
@@ -924,6 +815,154 @@ export function home__doc_html_({
 				])
 			])
 		)
+		function features_tab__button_($p:features_tab__button_props_T, ...children:tag_dom_T[]) {
+			const {
+				tab_id,
+				title,
+				svg,
+				class: _class,
+				...props
+			} = $p
+			return (
+				button_({
+					...props,
+					class: class_(
+						features_tab__button_class_(tab_id),
+						_class)
+				}, [
+					div_([
+						div_({
+							class: class_(
+								'font-bold',
+								'leading-snug',
+								'tracking-tight',
+								'mb-1')
+						}, title),
+						div_({
+							class: class_('text-gray-600')
+						}, children)
+					]),
+					div_({
+						class: class_(
+							'flex',
+							'justify-center',
+							'items-center',
+							'w-8',
+							'h-8',
+							'ml-auto',
+							'bg-white',
+							'rounded-full',
+							'shadow',
+							'shrink-0',
+							'ml-3')
+					}, svg)
+				])
+			)
+		}
+		type features_tab__button_props_T = {
+			tab_id:tab_id_T
+			class?:string
+			hyop:string
+			title:tag_dom_T
+			svg:tag_dom_T
+		}
+		function features_tab__button_class_(tab:tab_id_T) {
+			return class_(
+				'flex',
+				'w-full',
+				'items-center',
+				'mb-3',
+				'p-5',
+				'border',
+				'border-transparent',
+				'rounded',
+				'text-left',
+				'text-lg',
+				'bg-gray-200',
+				'transition',
+				'duration-300',
+				'ease-in-out',
+				tab === 1
+					? [
+						'group-[.tab-1]:bg-white',
+						'group-[.tab-1]:border-gray-200',
+						'group-[.tab-1]:shadow-md',
+						'group-[.tab-1]:hover:shadow-lg'
+					]
+					: tab === 2
+						? [
+							'group-[.tab-2]:bg-white',
+							'group-[.tab-2]:border-gray-200',
+							'group-[.tab-2]:shadow-md',
+							'group-[.tab-2]:hover:shadow-lg'
+						]
+						: tab === 3
+							? [
+								'group-[.tab-3]:bg-white',
+								'group-[.tab-3]:border-gray-200',
+								'group-[.tab-3]:shadow-md',
+								'group-[.tab-3]:hover:shadow-lg'
+							]
+							: null
+			)
+		}
+		function features_tab_class_(tab_num:tab_id_T) {
+			return class_(
+				'w-full',
+				'transition',
+				'ease-in-out',
+				'duration-700',
+				'transform',
+				'order-first',
+				'opacity-0',
+				'translate-y-16',
+				tab_num === 1
+					? [
+						'group-[.tab-1]:duration-300',
+						'group-[.tab-1]:absolute',
+						'group-[.tab-1]:opacity-100',
+						'group-[.tab-1]:translate-y-0',
+					]
+					: tab_num === 2
+						? [
+							'group-[.tab-2]:duration-300',
+							'group-[.tab-2]:absolute',
+							'group-[.tab-2]:opacity-100',
+							'group-[.tab-2]:translate-y-0',
+						]
+						: tab_num === 3
+							? [
+								'group-[.tab-3]:duration-300',
+								'group-[.tab-3]:absolute',
+								'group-[.tab-3]:opacity-100',
+								'group-[.tab-3]:translate-y-0',
+							]
+							: null)
+		}
+		function features_tab__div_($p:features_tab__div_props_T, ...children:tag_dom_T[]) {
+			const {
+				tab_id,
+				class: _class,
+			} = $p
+			return (
+				div_({
+					class: class_(
+						features_tab_class_(tab_id),
+						_class),
+				}, [
+					div_({
+						class: class_(
+							'relative',
+							'inline-flex',
+							'flex-col')
+					}, children)
+				])
+			)
+		}
+		type features_tab__div_props_T = {
+			tab_id:tab_id_T
+			class?:string
+		}
 	}
 	function features_blocks__section_() {
 		return (
@@ -2578,77 +2617,5 @@ export function home__doc_html_({
 				])
 			])
 		)
-	}
-	function features_tab__button_class_(tab:1|2|3) {
-		return class_(
-			'text-left',
-			'flex',
-			'items-center',
-			'text-lg',
-			'p-5',
-			'rounded',
-			'border',
-			'transition',
-			'duration-300',
-			'ease-in-out',
-			'mb-3',
-			'bg-gray-200',
-			'border-transparent',
-			tab === 1
-				? [
-					'group-[.tab-1]:bg-white',
-					'group-[.tab-1]:border-gray-200',
-					'group-[.tab-1]:shadow-md',
-					'group-[.tab-1]:hover:shadow-lg'
-				]
-				: tab === 2
-					? [
-						'group-[.tab-2]:bg-white',
-						'group-[.tab-2]:border-gray-200',
-						'group-[.tab-2]:shadow-md',
-						'group-[.tab-2]:hover:shadow-lg'
-					]
-					: tab === 3
-						? [
-							'group-[.tab-3]:bg-white',
-							'group-[.tab-3]:border-gray-200',
-							'group-[.tab-3]:shadow-md',
-							'group-[.tab-3]:hover:shadow-lg'
-						]
-						: null
-		)
-	}
-	function features_tab_class_(tab:1|2|3) {
-		return class_(
-			'w-full',
-			'transition',
-			'ease-in-out',
-			'duration-700',
-			'transform',
-			'order-first',
-			'opacity-0',
-			'translate-y-16',
-			tab === 1
-				? [
-					'group-[.tab-1]:duration-300',
-					'group-[.tab-1]:absolute',
-					'group-[.tab-1]:opacity-100',
-					'group-[.tab-1]:translate-y-0',
-				]
-				: tab === 2
-					? [
-						'group-[.tab-2]:duration-300',
-						'group-[.tab-2]:absolute',
-						'group-[.tab-2]:opacity-100',
-						'group-[.tab-2]:translate-y-0',
-					]
-					: tab === 3
-						? [
-							'group-[.tab-3]:duration-300',
-							'group-[.tab-3]:absolute',
-							'group-[.tab-3]:opacity-100',
-							'group-[.tab-3]:translate-y-0',
-						]
-						: null)
 	}
 }

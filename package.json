@@ -25,15 +25,17 @@
 	"types": "index.ts",
 	"exports": {
 		".": "./index.ts",
-		"./home": "./home/index.ts",
+		"./cruip-simple/any": "./cruip-simple/any/index.ts",
+		"./cruip-simple/browser": "./cruip-simple/browser/index.ts",
+		"./cruip-simple/server": "./cruip-simple/server/index.ts",
+		"./layout": "./layout/index.ts",
 		"./package.json": "./package.json"
 	},
 	"files": [
 		"*.d.ts",
 		"*.js",
 		"*.json",
-		"cruip-simple/browser",
-		"cruip-simple/server",
+		"cruip-simple",
 		"layout"
 	],
 	"dependencies": {
