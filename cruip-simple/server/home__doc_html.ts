@@ -575,44 +575,46 @@ export function home__doc_html_({
 										'Take collaboration to the next level with security and administrative features built for teams.'
 									]),
 									features_tab__button_({
-										tab_id: 2,
-										/** @see {import('../browser/index.ts').features_tab_2__button__hyop} */
-										hyop: 'features_tab_2__button__hyop',
-										title: 'Building the Simple ecosystem',
-										svg: svg_({
-											xmlns: 'http://www.w3.org/2000/svg',
-											viewBox: '0 0 12 12',
-											class: class_(
-												'w-3',
-												'h-3',
-												'fill-current'),
-										}, [
-											path_({
-												d: 'M11.854.146a.5.5 0 00-.525-.116l-11 4a.5.5 0 00-.015.934l4.8 1.921 1.921 4.8A.5.5 0 007.5 12h.008a.5.5 0 00.462-.329l4-11a.5.5 0 00-.116-.525z',
-												'fill-rule': 'nonzero'
-											})
-										])
-									}, ['Take collaboration to the next level with security and administrative features built for teams.']),
+											tab_id: 2,
+											/** @see {import('../browser/index.ts').features_tab_2__button__hyop} */
+											hyop: 'features_tab_2__button__hyop',
+											title: 'Building the Simple ecosystem',
+											svg: svg_({
+												xmlns: 'http://www.w3.org/2000/svg',
+												viewBox: '0 0 12 12',
+												class: class_(
+													'w-3',
+													'h-3',
+													'fill-current'),
+											}, [
+												path_({
+													d: 'M11.854.146a.5.5 0 00-.525-.116l-11 4a.5.5 0 00-.015.934l4.8 1.921 1.921 4.8A.5.5 0 007.5 12h.008a.5.5 0 00.462-.329l4-11a.5.5 0 00-.116-.525z',
+													'fill-rule': 'nonzero'
+												})
+											])
+										},
+										['Take collaboration to the next level with security and administrative features built for teams.']),
 									features_tab__button_({
-										tab_id: 3,
-										/** @see {import('../browser/index.ts').features_tab_3__button__hyop} */
-										hyop: 'features_tab_3__button__hyop',
-										title: 'Building the Simple ecosystem',
-										svg: svg_({
-											xmlns: 'http://www.w3.org/2000/svg',
-											viewBox: '0 0 12 12',
-											class: class_(
-												'w-3',
-												'h-3',
-												'fill-current'),
-										}, [
-											path_({
-												d: 'M11.334 8.06a.5.5 0 00-.421-.237 6.023 6.023 0 01-5.905-6c0-.41.042-.82.125-1.221a.5.5 0 00-.614-.586 6 6 0 106.832 8.529.5.5 0 00-.017-.485z',
-												fill: '#191919',
-												'fill-rule': 'nonzero'
-											})
-										])
-									}, ['Take collaboration to the next level with security and administrative features built for teams.'])
+											tab_id: 3,
+											/** @see {import('../browser/index.ts').features_tab_3__button__hyop} */
+											hyop: 'features_tab_3__button__hyop',
+											title: 'Building the Simple ecosystem',
+											svg: svg_({
+												xmlns: 'http://www.w3.org/2000/svg',
+												viewBox: '0 0 12 12',
+												class: class_(
+													'w-3',
+													'h-3',
+													'fill-current'),
+											}, [
+												path_({
+													d: 'M11.334 8.06a.5.5 0 00-.421-.237 6.023 6.023 0 01-5.905-6c0-.41.042-.82.125-1.221a.5.5 0 00-.614-.586 6 6 0 106.832 8.529.5.5 0 00-.017-.485z',
+													fill: '#191919',
+													'fill-rule': 'nonzero'
+												})
+											])
+										},
+										['Take collaboration to the next level with security and administrative features built for teams.'])
 								])
 							]),
 							/*  Tabs items  */
@@ -1031,474 +1033,359 @@ export function home__doc_html_({
 							])
 						]),
 						/*  Items  */
-						div_(
-							{
-								class: class_(
-									'max-w-sm',
-									'mx-auto',
-									'grid',
-									'gap-6',
-									'md:grid-cols-2',
-									'lg:grid-cols-3',
-									'items-start',
-									'md:max-w-2xl',
-									'lg:max-w-none')
-							},
-							[
-								/*  1st item  */
-								div_({
+						div_({
+							class: class_(
+								'max-w-sm',
+								'mx-auto',
+								'grid',
+								'gap-6',
+								'md:grid-cols-2',
+								'lg:grid-cols-3',
+								'items-start',
+								'md:max-w-2xl',
+								'lg:max-w-none')
+						}, [
+							/*  1st item  */
+							features_block__div_({
+								svg: svg_({
+									xmlns: 'http://www.w3.org/2000/svg',
+									viewBox: '0 0 64 64',
 									class: class_(
-										'relative',
-										'flex',
-										'flex-col',
-										'items-center',
-										'p-6',
-										'bg-white',
-										'rounded',
-										'shadow-xl')
+										'w-16',
+										'h-16',
+										'p-1',
+										'-mt-1',
+										'mb-2'),
 								}, [
-									svg_({
-										xmlns: 'http://www.w3.org/2000/svg',
-										viewBox: '0 0 64 64',
-										class: class_(
-											'w-16',
-											'h-16',
-											'p-1',
-											'-mt-1',
-											'mb-2'),
-									}, [
-										g_({ fill: 'none', 'fill-rule': 'evenodd' }, [
-											rect_({
-												class: class_(
-													'fill-current',
-													'text-blue-600'),
-												width: '64',
-												height: '64',
-												rx: '32'
-											}),
-											g_({ 'stroke-width': '2' }, [
-												path_({
-													class: class_(
-														'stroke-current',
-														'text-blue-300'),
-													d: 'M34.514 35.429l2.057 2.285h8M20.571 26.286h5.715l2.057 2.285'
-												}),
-												path_({
-													class: class_(
-														'stroke-current',
-														'text-white'),
-													d: 'M20.571 37.714h5.715L36.57 26.286h8'
-												}),
-												path_({
-													class: class_(
-														'stroke-current',
-														'text-blue-300'),
-													'stroke-linecap': 'square',
-													d: 'M41.143 34.286l3.428 3.428-3.428 3.429'
-												}),
-												path_({
-													class: class_(
-														'stroke-current',
-														'text-white'
-													),
-													'stroke-linecap': 'square',
-													d: 'M41.143 29.714l3.428-3.428-3.428-3.429'
-												})
-											])
-										])
-									]),
-									h4_({
-										class: class_(
-											'text-xl',
-											'font-bold',
-											'leading-snug',
-											'tracking-tight',
-											'mb-1')
-									}, [
-										'Headless CMS'
-									]),
-									p_({
-										class: class_(
-											'text-gray-600',
-											'text-center')
-									}, [
-										'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-									])
-								]),
-								/*  2nd item  */
-								div_({
-									class: class_(
-										'relative',
-										'flex',
-										'flex-col',
-										'items-center',
-										'p-6',
-										'bg-white',
-										'rounded',
-										'shadow-xl')
-								}, [
-									svg_({
-											xmlns: 'http://www.w3.org/2000/svg',
-											viewBox: '0 0 64 64',
+									g_({ fill: 'none', 'fill-rule': 'evenodd' }, [
+										rect_({
 											class: class_(
-												'w-16',
-												'h-16',
-												'p-1',
-												'-mt-1',
-												'mb-2'),
-										},
-										[
-											g_({ fill: 'none', 'fill-rule': 'evenodd' }, [
-												rect_({
-													class: class_(
-														'fill-current',
-														'text-blue-600'),
-													width: '64',
-													height: '64',
-													rx: '32'
-												}),
-												g_({ 'stroke-width': '2', transform: 'translate(19.429 20.571)' }, [
-													circle_({
-														class: class_(
-															'stroke-current',
-															'text-white'),
-														'stroke-linecap': 'square',
-														cx: '12.571',
-														cy: '12.571',
-														r: '1.143'
-													}),
-													path_({
-														class: class_(
-															'stroke-current',
-															'text-white'),
-														d: 'M19.153 23.267c3.59-2.213 5.99-6.169 5.99-10.696C25.143 5.63 19.514 0 12.57 0 5.63 0 0 5.629 0 12.571c0 4.527 2.4 8.483 5.99 10.696'
-													}),
-													path_({
-														class: class_(
-															'stroke-current',
-															'text-blue-300'),
-														d: 'M16.161 18.406a6.848 6.848 0 003.268-5.835 6.857 6.857 0 00-6.858-6.857 6.857 6.857 0 00-6.857 6.857 6.848 6.848 0 003.268 5.835'
-													})
-												])
-											])
-										]),
-									h4_({
-										class: class_(
-											'text-xl',
-											'font-bold',
-											'leading-snug',
-											'tracking-tight',
-											'mb-1')
-									}, [
-										'Headless CMS'
-									]),
-									p_({
-										class: class_(
-											'text-gray-600',
-											'text-center')
-									}, [
-										'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-									])
-								]),
-								/*  3rd item  */
-								div_({
-									class: class_(
-										'relative',
-										'flex',
-										'flex-col',
-										'items-center',
-										'p-6',
-										'bg-white',
-										'rounded',
-										'shadow-xl')
-								}, [
-									svg_({
-										xmlns: 'http://www.w3.org/2000/svg',
-										viewBox: '0 0 64 64',
-										class: class_(
-											'w-16',
-											'h-16',
-											'p-1',
-											'-mt-1',
-											'mb-2'),
-									}, [
-										g_({ fill: 'none', 'fill-rule': 'evenodd' }, [
-											rect_({
+												'fill-current',
+												'text-blue-600'),
+											width: '64',
+											height: '64',
+											rx: '32'
+										}),
+										g_({ 'stroke-width': '2' }, [
+											path_({
 												class: class_(
-													'fill-current',
-													'text-blue-600'
+													'stroke-current',
+													'text-blue-300'),
+												d: 'M34.514 35.429l2.057 2.285h8M20.571 26.286h5.715l2.057 2.285'
+											}),
+											path_({
+												class: class_(
+													'stroke-current',
+													'text-white'),
+												d: 'M20.571 37.714h5.715L36.57 26.286h8'
+											}),
+											path_({
+												class: class_(
+													'stroke-current',
+													'text-blue-300'),
+												'stroke-linecap': 'square',
+												d: 'M41.143 34.286l3.428 3.428-3.428 3.429'
+											}),
+											path_({
+												class: class_(
+													'stroke-current',
+													'text-white'
 												),
-												width: '64',
-												height: '64',
-												rx: '32'
-											}),
-											g_({ 'stroke-width': '2' }, [
-												path_({
-													class: class_(
-														'stroke-current',
-														'text-blue-300'),
-													d: 'M34.743 29.714L36.57 32 27.43 43.429H24M24 20.571h3.429l1.828 2.286'
-												}),
-												path_({
-													class: class_(
-														'stroke-current',
-														'text-white'),
-													'stroke-linecap': 'square',
-													d: 'M34.743 41.143l1.828 2.286H40M40 20.571h-3.429L27.43 32l1.828 2.286'
-												}),
-												path_({
-													class: class_(
-														'stroke-current',
-														'text-blue-300'),
-													d: 'M36.571 32H40'
-												}),
-												path_({
-													class: class_(
-														'stroke-current',
-														'text-white'),
-													d: 'M24 32h3.429',
-													'stroke-linecap': 'square'
-												})
-											])
+												'stroke-linecap': 'square',
+												d: 'M41.143 29.714l3.428-3.428-3.428-3.429'
+											})
 										])
-									]),
-									h4_({
-										class: class_(
-											'text-xl',
-											'font-bold',
-											'leading-snug',
-											'tracking-tight',
-											'mb-1')
-									}, [
-										'Headless CMS'
-									]),
-									p_({
-										class: class_(
-											'text-gray-600',
-											'text-center')
-									}, [
-										'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 									])
 								]),
-								/*  4th item  */
-								div_({
+								h4_children: ['Headless CMS'],
+								p_children: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit.']
+							}),
+							/*  2nd item  */
+							features_block__div_({
+								svg: svg_({
+									xmlns: 'http://www.w3.org/2000/svg',
+									viewBox: '0 0 64 64',
 									class: class_(
-										'relative',
-										'flex',
-										'flex-col',
-										'items-center',
-										'p-6',
-										'bg-white',
-										'rounded',
-										'shadow-xl')
+										'w-16',
+										'h-16',
+										'p-1',
+										'-mt-1',
+										'mb-2'),
 								}, [
-									svg_({
-										xmlns: 'http://www.w3.org/2000/svg',
-										viewBox: '0 0 64 64',
-										class: class_(
-											'w-16',
-											'h-16',
-											'p-1',
-											'-mt-1',
-											'mb-2'),
-									}, [
-										g_({ fill: 'none', 'fill-rule': 'evenodd' }, [
-											rect_({
+									g_({ fill: 'none', 'fill-rule': 'evenodd' }, [
+										rect_({
+											class: class_(
+												'fill-current',
+												'text-blue-600'),
+											width: '64',
+											height: '64',
+											rx: '32'
+										}),
+										g_({ 'stroke-width': '2', transform: 'translate(19.429 20.571)' }, [
+											circle_({
 												class: class_(
-													'fill-current',
-													'text-blue-600'),
-												width: '64',
-												height: '64',
-												rx: '32'
+													'stroke-current',
+													'text-white'),
+												'stroke-linecap': 'square',
+												cx: '12.571',
+												cy: '12.571',
+												r: '1.143'
 											}),
-											g_({ 'stroke-width': '2' }, [
-												path_({
-													class: class_(
-														'stroke-current',
-														'text-white'),
-													d: 'M32 37.714A5.714 5.714 0 0037.714 32a5.714 5.714 0 005.715 5.714'
-												}),
-												path_({
-													class: class_(
-														'stroke-current',
-														'text-white'),
-													d: 'M32 37.714a5.714 5.714 0 015.714 5.715 5.714 5.714 0 015.715-5.715M20.571 26.286a5.714 5.714 0 005.715-5.715A5.714 5.714 0 0032 26.286'
-												}),
-												path_({
-													class: class_(
-														'stroke-current',
-														'text-white'),
-													d: 'M20.571 26.286A5.714 5.714 0 0126.286 32 5.714 5.714 0 0132 26.286'
-												}),
-												path_({
-													class: class_(
-														'stroke-current',
-														'text-blue-300'),
-													d: 'M21.714 40h4.572M24 37.714v4.572M37.714 24h4.572M40 21.714v4.572',
-													'stroke-linecap': 'square'
-												})
-											])
+											path_({
+												class: class_(
+													'stroke-current',
+													'text-white'),
+												d: 'M19.153 23.267c3.59-2.213 5.99-6.169 5.99-10.696C25.143 5.63 19.514 0 12.57 0 5.63 0 0 5.629 0 12.571c0 4.527 2.4 8.483 5.99 10.696'
+											}),
+											path_({
+												class: class_(
+													'stroke-current',
+													'text-blue-300'),
+												d: 'M16.161 18.406a6.848 6.848 0 003.268-5.835 6.857 6.857 0 00-6.858-6.857 6.857 6.857 0 00-6.857 6.857 6.848 6.848 0 003.268 5.835'
+											})
 										])
-									]),
-									h4_({
-										class: class_(
-											'text-xl',
-											'font-bold',
-											'leading-snug',
-											'tracking-tight',
-											'mb-1')
-									}, [
-										'Headless CMS'
-									]),
-									p_({
-										class: class_(
-											'text-gray-600',
-											'text-center')
-									}, [
-										'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 									])
 								]),
-								/*  5th item  */
-								div_({
+								h4_children: ['Headless CMS'],
+								p_children: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit.']
+							}),
+							/*  3rd item  */
+							features_block__div_({
+								svg: svg_({
+									xmlns: 'http://www.w3.org/2000/svg',
+									viewBox: '0 0 64 64',
 									class: class_(
-										'relative',
-										'flex',
-										'flex-col',
-										'items-center',
-										'p-6',
-										'bg-white',
-										'rounded',
-										'shadow-xl')
+										'w-16',
+										'h-16',
+										'p-1',
+										'-mt-1',
+										'mb-2'),
 								}, [
-									svg_({
-										xmlns: 'http://www.w3.org/2000/svg',
-										viewBox: '0 0 64 64',
-										class: class_(
-											'w-16',
-											'h-16',
-											'p-1',
-											'-mt-1',
-											'mb-2'),
-									}, [
-										g_({ fill: 'none', 'fill-rule': 'evenodd' }, [
-											rect_({
+									g_({ fill: 'none', 'fill-rule': 'evenodd' }, [
+										rect_({
+											class: class_(
+												'fill-current',
+												'text-blue-600'
+											),
+											width: '64',
+											height: '64',
+											rx: '32'
+										}),
+										g_({ 'stroke-width': '2' }, [
+											path_({
 												class: class_(
-													'fill-current',
-													'text-blue-600'),
-												width: '64',
-												height: '64',
-												rx: '32'
+													'stroke-current',
+													'text-blue-300'),
+												d: 'M34.743 29.714L36.57 32 27.43 43.429H24M24 20.571h3.429l1.828 2.286'
 											}),
-											g_({ 'stroke-width': '2' }, [
-												path_({
-													class: class_(
-														'stroke-current',
-														'text-white'),
-													d: 'M19.429 32a12.571 12.571 0 0021.46 8.89L23.111 23.11A12.528 12.528 0 0019.429 32z'
-												}),
-												path_({
-													class: class_(
-														'stroke-current',
-														'text-blue-300'),
-													d: 'M32 19.429c6.943 0 12.571 5.628 12.571 12.571M32 24a8 8 0 018 8'
-												}),
-												path_({
-													class: class_(
-														'stroke-current',
-														'text-white'),
-													d: 'M34.286 29.714L32 32'
-												})
-											])
+											path_({
+												class: class_(
+													'stroke-current',
+													'text-white'),
+												'stroke-linecap': 'square',
+												d: 'M34.743 41.143l1.828 2.286H40M40 20.571h-3.429L27.43 32l1.828 2.286'
+											}),
+											path_({
+												class: class_(
+													'stroke-current',
+													'text-blue-300'),
+												d: 'M36.571 32H40'
+											}),
+											path_({
+												class: class_(
+													'stroke-current',
+													'text-white'),
+												d: 'M24 32h3.429',
+												'stroke-linecap': 'square'
+											})
 										])
-									]),
-									h4_({
-										class: class_(
-											'text-xl',
-											'font-bold',
-											'leading-snug',
-											'tracking-tight',
-											'mb-1')
-									}, [
-										'Headless CMS'
-									]),
-									p_({
-										class: class_(
-											'text-gray-600',
-											'text-center')
-									}, [
-										'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 									])
 								]),
-								/*  6th item  */
-								div_({
+								h4_children: ['Headless CMS'],
+								p_children: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit.'],
+							}),
+							/*  4th item  */
+							features_block__div_({
+								svg: svg_({
+									xmlns: 'http://www.w3.org/2000/svg',
+									viewBox: '0 0 64 64',
 									class: class_(
-										'relative',
-										'flex',
-										'flex-col',
-										'items-center',
-										'p-6',
-										'bg-white',
-										'rounded',
-										'shadow-xl')
+										'w-16',
+										'h-16',
+										'p-1',
+										'-mt-1',
+										'mb-2'),
 								}, [
-									svg_({
-										xmlns: 'http://www.w3.org/2000/svg',
-										viewBox: '0 0 64 64',
-										class: class_(
-											'w-16',
-											'h-16',
-											'p-1',
-											'-mt-1',
-											'mb-2'),
-									}, [
-										g_({ fill: 'none', 'fill-rule': 'evenodd' }, [
-											rect_({
+									g_({ fill: 'none', 'fill-rule': 'evenodd' }, [
+										rect_({
+											class: class_(
+												'fill-current',
+												'text-blue-600'),
+											width: '64',
+											height: '64',
+											rx: '32'
+										}),
+										g_({ 'stroke-width': '2' }, [
+											path_({
 												class: class_(
-													'fill-current',
-													'text-blue-600'),
-												width: '64',
-												height: '64',
-												rx: '32'
+													'stroke-current',
+													'text-white'),
+												d: 'M32 37.714A5.714 5.714 0 0037.714 32a5.714 5.714 0 005.715 5.714'
 											}),
-											g_({ 'stroke-width': '2', 'stroke-linecap': 'square' }, [
-												path_({
-													class: class_(
-														'stroke-current',
-														'text-white'),
-													d: 'M29.714 40.358l-4.777 2.51 1.349-7.865-5.715-5.57 7.898-1.147L32 21.13l3.531 7.155 7.898 1.147L40 32.775'
-												}),
-												path_({
-													class: class_(
-														'stroke-current',
-														'text-blue-300'),
-													d: 'M44.571 43.429H34.286M44.571 37.714H34.286'
-												})
-											])
+											path_({
+												class: class_(
+													'stroke-current',
+													'text-white'),
+												d: 'M32 37.714a5.714 5.714 0 015.714 5.715 5.714 5.714 0 015.715-5.715M20.571 26.286a5.714 5.714 0 005.715-5.715A5.714 5.714 0 0032 26.286'
+											}),
+											path_({
+												class: class_(
+													'stroke-current',
+													'text-white'),
+												d: 'M20.571 26.286A5.714 5.714 0 0126.286 32 5.714 5.714 0 0132 26.286'
+											}),
+											path_({
+												class: class_(
+													'stroke-current',
+													'text-blue-300'),
+												d: 'M21.714 40h4.572M24 37.714v4.572M37.714 24h4.572M40 21.714v4.572',
+												'stroke-linecap': 'square'
+											})
 										])
-									]),
-									h4_({
-										class: class_(
-											'text-xl',
-											'font-bold',
-											'leading-snug',
-											'tracking-tight',
-											'mb-1')
-									}, [
-										'Headless CMS'
-									]),
-									p_({
-										class: class_(
-											'text-gray-600',
-											'text-center')
-									}, [
-										'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 									])
-								])
-							])
+								]),
+								h4_children: ['Headless CMS'],
+								p_children: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit.'],
+							}),
+							/*  5th item  */
+							features_block__div_({
+								svg: svg_({
+									xmlns: 'http://www.w3.org/2000/svg',
+									viewBox: '0 0 64 64',
+									class: class_(
+										'w-16',
+										'h-16',
+										'p-1',
+										'-mt-1',
+										'mb-2'),
+								}, [
+									g_({ fill: 'none', 'fill-rule': 'evenodd' }, [
+										rect_({
+											class: class_(
+												'fill-current',
+												'text-blue-600'),
+											width: '64',
+											height: '64',
+											rx: '32'
+										}),
+										g_({ 'stroke-width': '2' }, [
+											path_({
+												class: class_(
+													'stroke-current',
+													'text-white'),
+												d: 'M19.429 32a12.571 12.571 0 0021.46 8.89L23.111 23.11A12.528 12.528 0 0019.429 32z'
+											}),
+											path_({
+												class: class_(
+													'stroke-current',
+													'text-blue-300'),
+												d: 'M32 19.429c6.943 0 12.571 5.628 12.571 12.571M32 24a8 8 0 018 8'
+											}),
+											path_({
+												class: class_(
+													'stroke-current',
+													'text-white'),
+												d: 'M34.286 29.714L32 32'
+											})
+										])
+									])
+								]),
+								h4_children: ['Headless CMS'],
+								p_children: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit.'],
+							}),
+							/*  6th item  */
+							features_block__div_({
+								svg: svg_({
+									xmlns: 'http://www.w3.org/2000/svg',
+									viewBox: '0 0 64 64',
+									class: class_(
+										'w-16',
+										'h-16',
+										'p-1',
+										'-mt-1',
+										'mb-2'),
+								}, [
+									g_({ fill: 'none', 'fill-rule': 'evenodd' }, [
+										rect_({
+											class: class_(
+												'fill-current',
+												'text-blue-600'),
+											width: '64',
+											height: '64',
+											rx: '32'
+										}),
+										g_({ 'stroke-width': '2', 'stroke-linecap': 'square' }, [
+											path_({
+												class: class_(
+													'stroke-current',
+													'text-white'),
+												d: 'M29.714 40.358l-4.777 2.51 1.349-7.865-5.715-5.57 7.898-1.147L32 21.13l3.531 7.155 7.898 1.147L40 32.775'
+											}),
+											path_({
+												class: class_(
+													'stroke-current',
+													'text-blue-300'),
+												d: 'M44.571 43.429H34.286M44.571 37.714H34.286'
+											})
+										])
+									])
+								]),
+								h4_children: ['Headless CMS'],
+								p_children: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit.'],
+							}),
+						])
 					])
 				])
 			])
 		)
+		function features_block__div_({
+			svg,
+			h4_children,
+			p_children,
+		}:{
+			svg:tag_dom_T
+			h4_children:tag_dom_T[]
+			p_children:tag_dom_T[]
+		}) {
+			return (
+				div_({
+					class: class_(
+						'relative',
+						'flex',
+						'flex-col',
+						'items-center',
+						'p-6',
+						'bg-white',
+						'rounded',
+						'shadow-xl')
+				}, [
+					svg,
+					h4_({
+						class: class_(
+							'text-xl',
+							'font-bold',
+							'leading-snug',
+							'tracking-tight',
+							'mb-1')
+					}, h4_children),
+					p_({
+						class: class_(
+							'text-gray-600',
+							'text-center')
+					}, p_children)
+				])
+			)
+		}
 	}
 	function features_world__section_() {
 		return (
