@@ -43,15 +43,15 @@
 		"@rappstack/ui--browser": "workspace:*",
 		"@rappstack/ui--server": "workspace:*",
 		"ctx-core": "^6.6.2",
-		"rebuildjs": "^0.66.2",
+		"rebuildjs": "^0.66.3",
 		"relementjs": "^0.75.2",
-		"relysjs": "^1.17.2"
+		"relysjs": "^1.17.3"
 	},
 	"devDependencies": {
 		"bun-types": "latest",
 		"schema-dts": "^1.1.2"
 	},
 	"peerDependencies": {
-		"typescript": "^5.4.2"
+		"typescript": "^5.4.3"
 	}
 }
