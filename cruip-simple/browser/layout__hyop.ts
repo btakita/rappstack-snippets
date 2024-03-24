@@ -1,4 +1,4 @@
-import { hover__enter$__new, transition_pair_ } from '@rappstack/ui--browser/transition'
+import { hover__enter$__new, transition_tup_ } from '@rappstack/ui--browser/transition'
 import { memo_ } from 'ctx-core/rmemo'
 export function layout__header__hyop(home__header:HTMLElement) {
 	window.addEventListener('scroll', update)
@@ -10,7 +10,7 @@ export function layout__header__hyop(home__header:HTMLElement) {
 const [
 	layout__header_resources__enter_el__add,
 	layout__header_resources__transition_el__add
-] = transition_pair_(hover__enter$__new)
+] = transition_tup_(hover__enter$__new)
 export function layout__header_resources__li__hyop(home_desktop_resources__li:HTMLElement) {
 	layout__header_resources__enter_el__add(home_desktop_resources__li)
 }
@@ -21,7 +21,7 @@ export function layout__header_resources__li__ul__hyop(home_desktop_resources__l
 const [
 	layout__header_mobile_menu__enter_el__add,
 	layout__header_mobile_menu__transition_el__add,
-] = transition_pair_(el=>{
+] = transition_tup_(el=>{
 	return memo_($=>{
 		el.addEventListener('click', ()=>{
 			$._ = !$()
