@@ -176,7 +176,7 @@ export function layout__header_() {
 							id: 'mobile-nav',
 							class: class_(
 								'hidden',
-								'[&.enter]:block',
+								'[&.seq-034521-gte-3]:block',
 								'absolute',
 								'top-full',
 								'h-screen',
@@ -191,9 +191,9 @@ export function layout__header_() {
 								'duration-200',
 								'transform',
 								'opacity-0',
-								'[&.enter-go]:opacity-100',
+								'[&.seq-034521-gte-4]:opacity-100',
 								'-translate-y-2',
-								'[&.enter-go]:translate-y-0'),
+								'[&.seq-034521-gte-4]:translate-y-0'),
 							/** @see {import('../browser/index.ts').layout__header_mobile_menu__nav__hyop} */
 							hyop: 'layout__header_mobile_menu__nav__hyop'
 						}, [
