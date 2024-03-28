@@ -43,7 +43,7 @@
 		"@rappstack/ui--browser": "workspace:*",
 		"@rappstack/ui--server": "workspace:*",
 		"ctx-core": "^6.7.0",
-		"rebuildjs": "^0.67.1",
+		"rebuildjs": "^0.67.2",
 		"relementjs": "^0.77.0",
 		"relysjs": "^1.18.0"
 	},
