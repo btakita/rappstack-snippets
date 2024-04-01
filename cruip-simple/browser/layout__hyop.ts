@@ -24,7 +24,7 @@ const [
 ] = seq_034521_class_tup_(el=>{
 	return memo_($=>{
 		el.addEventListener('click', ()=>{
-			$._ = !$()
+			$.set(!$())
 		})
 		return false
 	})
