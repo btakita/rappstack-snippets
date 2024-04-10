@@ -42,16 +42,16 @@
 		"@rappstack/domain--server": "workspace:*",
 		"@rappstack/ui--browser": "workspace:*",
 		"@rappstack/ui--server": "workspace:*",
-		"ctx-core": "^7.1.4",
-		"rebuildjs": "^0.69.6",
-		"relementjs": "^0.79.4",
-		"relysjs": "^1.20.10"
+		"ctx-core": "^7.1.5",
+		"rebuildjs": "^0.69.7",
+		"relementjs": "^0.79.5",
+		"relysjs": "^1.20.11"
 	},
 	"devDependencies": {
 		"bun-types": "latest",
 		"schema-dts": "^1.1.2"
 	},
 	"peerDependencies": {
-		"typescript": "^5.4.4"
+		"typescript": "^5.4.5"
 	}
 }
