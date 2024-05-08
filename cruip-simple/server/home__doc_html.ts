@@ -61,11 +61,11 @@ const planet_avatar_01_png = 'planet_avatar_01.png'
 const planet_avatar_02_png = 'planet_avatar_02.png'
 const planet_png = 'planet.png'
 const video_mp4 = 'video.mp4'
-export function home__doc_html_({
-	ctx
-}:{
+type home__doc_html_props_T = {
 	ctx:request_ctx_T
-}) {
+}
+export function home__doc_html_($p:home__doc_html_props_T) {
+	const { ctx } = $p
 	return layout__doc_html_({
 		ctx
 	}, [
