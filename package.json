@@ -45,7 +45,7 @@
 		"ctx-core": "^7.2.10",
 		"rebuildjs": "^0.70.17",
 		"relementjs": "^0.80.10",
-		"relysjs": "^1.21.31"
+		"relysjs": "^1.21.32"
 	},
 	"devDependencies": {
 		"bun-types": "latest",
