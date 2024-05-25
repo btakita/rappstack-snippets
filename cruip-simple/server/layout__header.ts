@@ -90,8 +90,8 @@ export function layout__header_() {
 							main_menu_a2.map(([href, text])=>
 								li_({
 									class: class_(
-										'text-gray-600',
-										'hover:text-gray-900',
+										'text-skin-light',
+										'hover:text-skin-base',
 										'px-3',
 										'lg:px-5',
 										'py-2',
@@ -117,8 +117,8 @@ export function layout__header_() {
 							li_({
 								class: class_(
 									'font-medium',
-									'text-gray-600',
-									'hover:text-gray-900',
+									'text-skin-light',
+									'hover:text-skin-base',
 									'px-5',
 									'py-3',
 									'flex',
@@ -133,8 +133,8 @@ export function layout__header_() {
 									class: class_(
 										'btn-sm',
 										'text-gray-200',
-										'bg-gray-900',
-										'hover:bg-gray-800',
+										'bg-skin-invert',
+										'hover:bg-skin-invert-light',
 										'ml-3'),
 									href: '/signup'
 								}, [
@@ -165,7 +165,7 @@ export function layout__header_() {
 									'w-6',
 									'h-6',
 									'fill-current',
-									'text-gray-900')
+									'text-skin-base')
 							}, [
 								rect_({ y: 4, width: 24, height: 2 }),
 								rect_({ y: 11, width: 24, height: 2 }),
@@ -185,7 +185,7 @@ export function layout__header_() {
 								'left-0',
 								'w-full',
 								'overflow-scroll',
-								'bg-white',
+								'bg-skin-fill',
 								'transition',
 								'ease-out',
 								'duration-200',
@@ -207,8 +207,8 @@ export function layout__header_() {
 										a_({
 											class: class_(
 												'flex',
-												'text-gray-600',
-												'hover:text-gray-900',
+												'text-skin-light',
+												'hover:text-skin-base',
 												'py-2'),
 											href
 										}, text)
@@ -224,8 +224,8 @@ export function layout__header_() {
 									span_({
 										class: class_(
 											'flex',
-											'text-gray-600',
-											'hover:text-gray-900',
+											'text-skin-light',
+											'hover:text-skin-base',
 											'py-2')
 									}, 'Resources'),
 									ul_({
@@ -237,8 +237,8 @@ export function layout__header_() {
 													'text-sm',
 													'flex',
 													'font-medium',
-													'text-gray-600',
-													'hover:text-gray-900',
+													'text-skin-light',
+													'hover:text-skin-base',
 													'py-2'),
 												href,
 											}, text)
@@ -250,8 +250,8 @@ export function layout__header_() {
 											'flex',
 											'font-medium',
 											'w-full',
-											'text-gray-600',
-											'hover:text-gray-900',
+											'text-skin-light',
+											'hover:text-skin-base',
 											'py-2',
 											'justify-center'),
 										href: '/signin'
@@ -262,8 +262,8 @@ export function layout__header_() {
 										class: class_(
 											'btn-sm',
 											'text-gray-200',
-											'bg-gray-900',
-											'hover:bg-gray-800',
+											'bg-skin-invert',
+											'hover:bg-skin-invert-light',
 											'w-full',
 											'my-2'),
 										href: '/signup'
@@ -286,8 +286,8 @@ export function layout__header_() {
 			}, [
 				a_({
 					class: class_(
-						'text-gray-600',
-						'hover:text-gray-900',
+						'text-skin-light',
+						'hover:text-skin-base',
 						'px-3',
 						'lg:px-5',
 						'py-2',
@@ -323,7 +323,7 @@ export function layout__header_() {
 						'top-full',
 						'right-0',
 						'w-40',
-						'bg-white',
+						'bg-skin-fill',
 						'py-2',
 						'ml-4',
 						'rounded',
@@ -342,8 +342,8 @@ export function layout__header_() {
 							class: class_(
 								'font-medium',
 								'text-sm',
-								'text-gray-600',
-								'hover:text-gray-900',
+								'text-skin-light',
+								'hover:text-skin-base',
 								'flex',
 								'py-2',
 								'px-5',

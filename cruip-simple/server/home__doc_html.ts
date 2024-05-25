@@ -311,7 +311,7 @@ export function home__doc_html_($p:home__doc_html_props_T) {
 										'items-center',
 										'transform',
 										'-translate-y-1/2',
-										'bg-white',
+										'bg-skin-fill',
 										'rounded-full',
 										'font-medium',
 										'group/button',
@@ -350,7 +350,7 @@ export function home__doc_html_($p:home__doc_html_props_T) {
 									'fixed',
 									'inset-0',
 									'z-40',
-									'bg-white',
+									'bg-skin-fill',
 									'bg-opacity-75',
 									'transition-opacity',
 									'backdrop-blur-sm',
@@ -390,7 +390,7 @@ export function home__doc_html_($p:home__doc_html_props_T) {
 							}, [
 								div_({
 									class: class_(
-										'bg-white',
+										'bg-skin-fill',
 										'overflow-auto',
 										'max-w-6xl',
 										'w-full',
@@ -852,7 +852,7 @@ export function home__doc_html_($p:home__doc_html_props_T) {
 							'w-8',
 							'h-8',
 							'ml-auto',
-							'bg-white',
+							'bg-skin-fill',
 							'rounded-full',
 							'shadow',
 							'shrink-0',
@@ -886,21 +886,21 @@ export function home__doc_html_($p:home__doc_html_props_T) {
 				'ease-in-out',
 				tab === 1
 					? [
-						'group-[.tab-1]:bg-white',
+						'group-[.tab-1]:bg-skin-fill',
 						'group-[.tab-1]:border-gray-200',
 						'group-[.tab-1]:shadow-md',
 						'group-[.tab-1]:hover:shadow-lg'
 					]
 					: tab === 2
 						? [
-							'group-[.tab-2]:bg-white',
+							'group-[.tab-2]:bg-skin-fill',
 							'group-[.tab-2]:border-gray-200',
 							'group-[.tab-2]:shadow-md',
 							'group-[.tab-2]:hover:shadow-lg'
 						]
 						: tab === 3
 							? [
-								'group-[.tab-3]:bg-white',
+								'group-[.tab-3]:bg-skin-fill',
 								'group-[.tab-3]:border-gray-200',
 								'group-[.tab-3]:shadow-md',
 								'group-[.tab-3]:hover:shadow-lg'
@@ -1365,7 +1365,7 @@ export function home__doc_html_($p:home__doc_html_props_T) {
 						'flex-col',
 						'items-center',
 						'p-6',
-						'bg-white',
+						'bg-skin-fill',
 						'rounded',
 						'shadow-xl')
 				}, [
@@ -1837,7 +1837,7 @@ export function home__doc_html_($p:home__doc_html_props_T) {
 											'py-2',
 											'px-4',
 											'rounded-full',
-											'bg-white',
+											'bg-skin-fill',
 											'hover:bg-gray-100',
 											'shadow-sm',
 											'transition',
@@ -1857,7 +1857,7 @@ export function home__doc_html_($p:home__doc_html_props_T) {
 											'py-2',
 											'px-4',
 											'rounded-full',
-											'bg-white',
+											'bg-skin-fill',
 											'hover:bg-gray-100',
 											'shadow-sm',
 											'transition',
@@ -1877,7 +1877,7 @@ export function home__doc_html_($p:home__doc_html_props_T) {
 											'py-2',
 											'px-4',
 											'rounded-full',
-											'bg-white',
+											'bg-skin-fill',
 											'hover:bg-gray-100',
 											'shadow-sm',
 											'transition',
@@ -1897,7 +1897,7 @@ export function home__doc_html_($p:home__doc_html_props_T) {
 											'py-2',
 											'px-4',
 											'rounded-full',
-											'bg-white',
+											'bg-skin-fill',
 											'hover:bg-gray-100',
 											'shadow-sm',
 											'transition',
@@ -2007,7 +2007,7 @@ export function home__doc_html_($p:home__doc_html_props_T) {
 															'py-1',
 															'px-3',
 															'rounded-full',
-															'bg-white',
+															'bg-skin-fill',
 															'hover:bg-gray-100',
 															'shadow-sm',
 															'transition',
@@ -2059,7 +2059,7 @@ export function home__doc_html_($p:home__doc_html_props_T) {
 															'absolute',
 															'inset-0',
 															'-m-px',
-															'bg-white',
+															'bg-skin-fill',
 															'rounded-full')
 													})
 												]),
@@ -2166,7 +2166,7 @@ export function home__doc_html_($p:home__doc_html_props_T) {
 															'py-1',
 															'px-3',
 															'rounded-full',
-															'bg-white',
+															'bg-skin-fill',
 															'hover:bg-gray-100',
 															'shadow-sm',
 															'transition',
@@ -2222,7 +2222,7 @@ export function home__doc_html_($p:home__doc_html_props_T) {
 															'absolute',
 															'inset-0',
 															'-m-px',
-															'bg-white',
+															'bg-skin-fill',
 															'rounded-full')
 													})
 												]),
@@ -2334,7 +2334,7 @@ export function home__doc_html_($p:home__doc_html_props_T) {
 															'py-1',
 															'px-3',
 															'rounded-full',
-															'bg-white',
+															'bg-skin-fill',
 															'hover:bg-gray-100',
 															'shadow-sm',
 															'transition',
@@ -2385,7 +2385,7 @@ export function home__doc_html_($p:home__doc_html_props_T) {
 															'absolute',
 															'inset-0',
 															'-m-px',
-															'bg-white',
+															'bg-skin-fill',
 															'rounded-full')
 													})
 												]),

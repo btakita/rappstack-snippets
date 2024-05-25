@@ -48,12 +48,12 @@ export function layout__footer_() {
 						div_({
 							class: class_(
 								'text-sm',
-								'text-gray-600')
+								'text-skin-light')
 						}, [
 							a_({
 								class: class_(
-									'text-gray-600',
-									'hover:text-gray-900',
+									'text-skin-light',
+									'hover:text-skin-base',
 									'transition',
 									'duration-150',
 									'ease-in-out'),
@@ -63,8 +63,8 @@ export function layout__footer_() {
 							'·',
 							a_({
 								class: class_(
-									'text-gray-600',
-									'hover:text-gray-900',
+									'text-skin-light',
+									'hover:text-skin-base',
 									'transition',
 									'duration-150',
 									'ease-in-out'),
@@ -100,8 +100,8 @@ export function layout__footer_() {
 								li_({ class: 'mb-2' }, [
 									a_({
 										class: class_(
-											'text-gray-600',
-											'hover:text-gray-900',
+											'text-skin-light',
+											'hover:text-skin-base',
 											'transition',
 											'duration-150',
 											'ease-in-out'),
@@ -134,8 +134,8 @@ export function layout__footer_() {
 							li_({ class: 'mb-2' }, [
 								a_({
 									class: class_(
-										'text-gray-600',
-										'hover:text-gray-900',
+										'text-skin-light',
+										'hover:text-skin-base',
 										'transition',
 										'duration-150',
 										'ease-in-out'),
@@ -155,27 +155,27 @@ export function layout__footer_() {
 						]),
 						ul_({ class: 'text-sm' }, [
 							li_({ class: 'mb-2' }, [
-								a_({ class: 'text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out', href: '#0' }, [
+								a_({ class: 'text-skin-light hover:text-skin-base transition duration-150 ease-in-out', href: '#0' }, [
 									'Home'
 								])
 							]),
 							li_({ class: 'mb-2' }, [
-								a_({ class: 'text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out', href: '#0' }, [
+								a_({ class: 'text-skin-light hover:text-skin-base transition duration-150 ease-in-out', href: '#0' }, [
 									'About us'
 								])
 							]),
 							li_({ class: 'mb-2' }, [
-								a_({ class: 'text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out', href: '#0' }, [
+								a_({ class: 'text-skin-light hover:text-skin-base transition duration-150 ease-in-out', href: '#0' }, [
 									'Company values'
 								])
 							]),
 							li_({ class: 'mb-2' }, [
-								a_({ class: 'text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out', href: '#0' }, [
+								a_({ class: 'text-skin-light hover:text-skin-base transition duration-150 ease-in-out', href: '#0' }, [
 									'Pricing'
 								])
 							]),
 							li_({ class: 'mb-2' }, [
-								a_({ class: 'text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out', href: '#0' }, [
+								a_({ class: 'text-skin-light hover:text-skin-base transition duration-150 ease-in-out', href: '#0' }, [
 									'Privacy Policy'
 								])
 							])
@@ -186,7 +186,7 @@ export function layout__footer_() {
 						h6_({ class: 'text-gray-800 font-medium mb-2' }, [
 							'Subscribe'
 						]),
-						p_({ class: 'text-sm text-gray-600 mb-4' }, [
+						p_({ class: 'text-sm text-skin-light mb-4' }, [
 							'Get the latest news and articles to your inbox every month.'
 						]),
 						form_([
@@ -231,7 +231,7 @@ export function layout__footer_() {
 					ul_({ class: 'flex mb-4 md:order-1 md:ml-4 md:mb-0' }, [
 						li_([
 							a_({
-								class: 'flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out',
+								class: 'flex justify-center items-center text-skin-light hover:text-skin-base bg-skin-fill hover:bg-skin-fill-light rounded-full shadow transition duration-150 ease-in-out',
 								href: '#0',
 								'aria-label': 'Twitter'
 							}, [
@@ -243,7 +243,7 @@ export function layout__footer_() {
 						]),
 						li_({ class: 'ml-4' }, [
 							a_({
-								class: 'flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out',
+								class: 'flex justify-center items-center text-skin-light hover:text-skin-base bg-skin-fill hover:bg-skin-fill-light rounded-full shadow transition duration-150 ease-in-out',
 								href: '#0',
 								'aria-label': 'Github'
 							}, [
@@ -255,7 +255,7 @@ export function layout__footer_() {
 						]),
 						li_({ class: 'ml-4' }, [
 							a_({
-								class: 'flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out',
+								class: 'flex justify-center items-center text-skin-light hover:text-skin-base bg-skin-fill hover:bg-skin-fill-light rounded-full shadow transition duration-150 ease-in-out',
 								href: '#0',
 								'aria-label': 'Facebook'
 							}, [
@@ -267,7 +267,7 @@ export function layout__footer_() {
 						])
 					]),
 					/*  Copyrights note  */
-					div_({ class: 'text-sm text-gray-600 mr-4' }, [
+					div_({ class: 'text-sm text-skin-light mr-4' }, [
 						'© Cruip.com. All rights reserved.'
 					])
 				])
