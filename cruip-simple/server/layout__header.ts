@@ -7,7 +7,8 @@ export function layout__header_() {
 	return (
 		header_({
 			class: class_(
-				'fixed',
+				'sticky',
+				'top-0',
 				'w-full',
 				'z-30',
 				'md:bg-opacity-90',
