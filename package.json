@@ -43,9 +43,9 @@
 		"@rappstack/ui--browser": "workspace:*",
 		"@rappstack/ui--server": "workspace:*",
 		"ctx-core": "^7.2.17",
-		"rebuildjs": "^0.70.24",
+		"rebuildjs": "^0.70.25",
 		"relementjs": "^0.80.16",
-		"relysjs": "^1.21.43"
+		"relysjs": "^1.21.44"
 	},
 	"devDependencies": {
 		"bun-types": "latest",
