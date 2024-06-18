@@ -42,10 +42,10 @@
 		"@rappstack/domain--server": "workspace:*",
 		"@rappstack/ui--browser": "workspace:*",
 		"@rappstack/ui--server": "workspace:*",
-		"ctx-core": "^7.2.19",
-		"rebuildjs": "^0.70.28",
-		"relementjs": "^0.80.18",
-		"relysjs": "^1.21.50"
+		"ctx-core": "^7.2.20",
+		"rebuildjs": "^0.70.29",
+		"relementjs": "^0.80.19",
+		"relysjs": "^1.21.51"
 	},
 	"devDependencies": {
 		"bun-types": "latest",
